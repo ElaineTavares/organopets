@@ -1,0 +1,37 @@
+.formulario{
+    max-width: 80%;
+    margin: 80px auto;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 36px 64px;
+    box-shadow: 8px 8px 16px rgba(0,0,0,0.08);
+
+}
+
+.formulario h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 801px){
+    .formulario{      
+        margin: 0 auto; 
+        padding: 36px 24px;
+    }
+}
+
+@media (max-width: 601px){
+    .formulario{      
+        margin: -280px auto; 
+    }
+
+    .formulario h2{
+        font-size: 2rem;
+    }
+
+    .formulario ::placeholder{
+        font-size: 16px;
+    }
+}
+

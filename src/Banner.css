@@ -1,0 +1,28 @@
+.banner{
+    background-image: url('/imagens/banner_pets.jpeg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    padding: 300px 100px;
+    width: 100%;
+}
+
+.banner h1{
+    color: white;
+    font-size: 3rem;
+}
+
+
+@media (max-width: 601px){
+    .banner{
+        padding: 50px 100px;
+      
+    }  
+}
+
+@media (max-width: 401px){
+    .banner h1{
+        color: white;
+        font-size: 1.5em;
+    } 
+}
