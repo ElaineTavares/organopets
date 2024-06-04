@@ -2,6 +2,7 @@
     text-align: center;
     padding: 32px;
     /* background-color: #d9f7e9; */
+    position: relative;
 }
 
 .time h3{
@@ -9,6 +10,18 @@
     border-bottom: 4px solid;
     display: inline-block;
     padding-bottom: 8px;
+}
+
+.input_cor{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.input_cor_secundaria{
+    position: absolute;
+    top: 20px;
+    left: 30px;
 }
 
 
