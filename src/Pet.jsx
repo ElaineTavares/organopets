@@ -8,7 +8,7 @@ export default function Pet(props) {
         <IoIosCloseCircle 
             size={25} 
             className='deletar' 
-            onClick={props.aoDeletar}
+            onClick={() => props.aoDeletar(props.pet.id)}
         />
         <div className='cabecalho' style={{backgroundColor: props.corDeFundo}}>
             <img src={props.imagem} alt={props.nome} />
